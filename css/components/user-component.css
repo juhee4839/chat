@@ -8,6 +8,12 @@
   justify-content: space-between;
 }
 
+
+.user-component__column{
+  margin-bottom:5px;
+}
+
+
 .user-component .user-component__column:first-child {
   display: flex;
   align-items: center;
@@ -16,22 +22,22 @@
   margin-left: 10px;
 }
 
-.user-component__avater {
+.user-component__column img{
   width: 70px;
   height: 70px;
-  border-radius: 30px;
+  border-radius: 25px;
   margin-right: 20px;
 }
 
 .user-component__title {
   font-weight: 800;
-  font-size: 20px;
+  font-size: 18px;
   color: rgb(31, 17, 3);
 }
 
 .user-component__subtitle {
   margin-top: 5px;
-  font-size: 17px;
+  font-size: 14px;
   color: (0, 0, 0, 0.7);
 }
 
@@ -61,5 +67,6 @@
 
 .user-component_time{
   display:block;
-  margin-bottom:10px;
+  margin-bottom:8px;
+  font-size:15px;
 }

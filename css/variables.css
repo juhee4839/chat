@@ -1,6 +1,6 @@
 :root {
   --main_color: #f7ddc0;
-  --main_text_color: #75635f;
+  --main_text_color: #402925;
   --horizontal-space: 25px;
-  --main-border:rgba(0,0,0,0.1);
+  --main-border:1px solid rgba(0,0,0,0.3);
 }
