@@ -127,4 +127,7 @@ input:focus {
   outline: none;
 }
 
-a{color:inherit;}
+a {
+  text-decoration: none;
+  color: inherit;
+}

@@ -2,10 +2,10 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #f9f9fa;
+  background-color: #f7e2e3;
   padding: 20px 40px;
   box-sizing: border-box;
-  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  border-top: 1px solid #f7e2e3;
 }
 
 .nav_list {

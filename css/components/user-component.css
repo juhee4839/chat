@@ -25,14 +25,14 @@
 
 .user-component__title {
   font-weight: 800;
-  font-size: 20px;
+  font-size: 18px;
   color: rgb(31, 17, 3);
 }
 
 .user-component__subtitle {
   margin-top: 5px;
-  font-size: 17px;
-  color: (0, 0, 0, 0.7);
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .user-component__avater--xl {

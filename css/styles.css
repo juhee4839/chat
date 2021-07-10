@@ -15,7 +15,8 @@
 body {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   height: 1000vh;
-  color: #2e363e;
+  color: var(--main_text_color);
+  background-color: var(--main_color);
 }
 
 .welcome-header {
@@ -83,4 +84,9 @@ body {
   text-decoration: none;
   color: inherit;
   font-size: 13px;
+}
+
+.main-screen {
+  padding: 0px 30px;
+  box-sizing: border-box;
 }

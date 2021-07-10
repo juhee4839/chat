@@ -28,7 +28,7 @@
 }
 
 .recommended-Friends__input > input[type="text"] {
-  width: 130px;
+  width: 50%;
   height: 15px;
   margin-left: 40px;
   border: 1px solid rgba(45, 29, 26, 0.4);
@@ -45,10 +45,11 @@
   height: 30px;
   font-size: 10px;
   margin-left: 10px;
-  border: 1px solid rgba(45, 29, 26, 0.6);
+  border: 1px solid rgba(244, 234, 232, 0.6);
+  cursor: pointer;
   border-radius: 5px;
-  color: #eddac0;
-  color: var(--main_text_color);
+  background-color: rgb(200, 189, 192);
+  color: #fff;
 }
 .recommended-Friends {
   margin: 25px 0px;
@@ -62,9 +63,10 @@
 }
 
 .recommended-Friends__title {
+  width: 40%;
   color: rgba(45, 29, 26, 0.6);
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .recommended-Friends__picture__column {
@@ -156,9 +158,8 @@
   border-radius: 10px;
 }
 
-
-.open-post__column{
-  position:relative;
+.open-post__column {
+  position: relative;
 }
 .open-post__heart-count {
   background-color: rgba(0, 0, 0, 0.5);
@@ -169,7 +170,7 @@
   align-items: center;
   position: absolute;
   bottom: 10px;
-  right:10px;
+  right: 10px;
   font-size: 14px;
 }
 
