@@ -4,6 +4,7 @@
   align-items: center;
   padding: var(--horizontal-space);
   padding-top: 60px;
+  font-family: "Open Sans";
 }
 
 .screen-header__title {
